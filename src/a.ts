@@ -1,5 +1,1 @@
-export const a = 'a';
-
-
-
-const a = ''
+export const a = 'a'
