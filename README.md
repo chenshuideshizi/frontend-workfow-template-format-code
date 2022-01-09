@@ -1,5 +1,35 @@
 # Frontend Workflow Tmplate
 
+
+**使用的工具**
+
+- husky：Git hooks 工具<br>
+解决了.git文件不会被跟踪并且不会上传至远端仓库的问题
+
+
+- lint-staged：检测文件插件<br>
+只检测**暂存区**的文件，对过滤出的文件执行脚本
+
+
+- eslint：插件化JavaScript代码检测工具<br>
+Js编码规范，检测并提示错误或警告信息
+
+
+- prettier：代码格式化工具<br>
+代码风格管理，更好的代码风格效果
+
+
+- editorconfig：文件代码规范<br>
+保持多人开发一致编码样式
+
+
+- commitlint：代码提交检测<br>
+检测git commit 内容是否符合定义的规范
+
+
+- commitizen：代码提交内容标准化<br>
+提示定义输入标准的git commit 内容
+
 ### 增产提效
 
 **1. eslint + vscode**
