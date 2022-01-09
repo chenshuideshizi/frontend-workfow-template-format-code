@@ -1,5 +1,5 @@
 module.exports = {
-  extents: ['@commitlint/config-conventional'],
+  extents: ['@commitlint/config-conventional', 'cz'],
   rules: {
     'body-leading-blank': [1, 'always'],
     'footer-leading-blank': [1, 'always'],
