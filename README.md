@@ -1,23 +1,13 @@
 # Frontend Workflow Tmplate
 
-
-
-这是个人总结工作流模板,学习下如何创建一个工作流,后续会慢慢增加自己所学的工程化内容进来,目前提供功能
-1. `commit` 代码校验,避免错误代码提交
-2. `commit-message` 提交信息校验,提交信息要规范
-3. 提交信息模块是可扩展的,可以查看 `/.cz-config.js` 
-
-
-
-
-### 提交增效
+### 增产提效
 
 **1. eslint + vscode**
 
 - 1. 在 vscode 上安装 eslint 插件
 - 2. 每次保存的时候根据根目录下 .eslint.js 配置自我修正
 
-文件 > 首选项 > 设置 
+文件 > 首选项 > 设置
 
 ```js
     "files.autoSave":"off",
@@ -35,3 +25,21 @@
 **2. 配置 .editorconfig 文件**
 
 配置开发时文件代码规范,保持多人开发一致编码样式
+
+**工作流**
+
+![流程图](./doc/前端工作流.png)
+
+- [xmind 文件](./doc/前端工作流.xmind)
+- [pdf](./doc/commit规范方案探讨.pdf)
+
+**疑问**
+
+eslint --fix 和 prettier 都可以实现格式化代码，它们之间有什么区别
+
+**参考**
+
+- Npm Life Cycle Scripts https://docs.npmjs.com/cli/v7/using-npm/scripts#life-cycle-scripts
+
+- npm 模块管理器 http://javascript.ruanyifeng.com/nodejs/npm.html
+- package.json 介绍 http://javascript.ruanyifeng.com/nodejs/packagejson.html
